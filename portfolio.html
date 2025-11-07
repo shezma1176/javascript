@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Wesite</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        nav {
+            background-color: antiquewhite;
+            color: brown;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+
+        }
+        li a{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./portfolio.html">Home</a></li>
+            <li><a href="./contact us.html">Contact</a></li>
+            <li><a href="./avout us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <h2>Interesting Information</h2>
+    <img src="OSK.webp" alt="tiger">
+    <br />
+    <button onclick="tiger()">Read More</button>
+    <p id="tiger-info"></p>
+
+    <img src="OSK.jpeg" alt="lion">
+    <br />
+    <button onclick="lion()">Read More</button>
+    <p id="lion-info"></p>
+
+    <script>
+        function tiger() {
+            document.getElementById("tiger-info").innerHTML = "Tigers are not just apex predators—they’re ecological engineers. A single tiger’s territory can span hundreds of square kilometers, shaping the balance of prey populations and forest health. Their roar can be heard up to 3 kilometers away, and they mark their domain with scent glands between their toes. Surprisingly, tigers love water and often swim for miles, unlike most big cats. Each tiger’s stripe pattern is as unique as a fingerprint, and their night vision is six times better than ours, making them formidable nocturnal hunters."
+        }
+        function lion() {
+            document.getElementById("lion-info").innerHTML = "Lions are the only cats that live in large social groups, called prides, which can include up to 30 members. Unlike most predators, lionesses do the majority of the hunting—working together to ambush prey—while males defend the territory. A lions roar is so powerful it can be heard from 8 kilometers away, serving as a sonic warning to rivals. Interestingly, lions sleep or rest for up to 20 hours a day, conserving energy for intense bursts of activity. Their majestic manes not only signal strength but also help protect their necks during fights."
+        }
+    </script>
+
+</body>
+
+</html>
