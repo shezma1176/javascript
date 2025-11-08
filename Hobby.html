@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+</head>
+
+<body>
+
+    <img src="art.webp" alt="">
+
+    <h2>My hobby is drawing. I really like to draw</h2>
+    <button onclick="art()">Read More</button>
+    <p id="draw"></p>
+
+    <img src="books.webp" alt="">
+
+    <h2>I also like to read books. Specifically novels</h2>
+    <button onclick="book()">Read More</button>
+    <p id="read"></p>
+
+    <script>
+        function art() {
+            document.getElementById("draw").innerHTML = "Art is the expression of human creativity, imagination, and emotion through visual, auditory, or performance mediums. It reflects cultural values, personal experiences, and universal themes, often aiming to inspire, provoke thought, or evoke beauty. Art encompasses a wide range of forms including painting, sculpture, music, dance, theater, literature, and digital media. It can be realistic or abstract, traditional or experimental, and is often used to communicate ideas, tell stories, or challenge perceptions. Whether created for personal fulfillment or public engagement, art plays a vital role in shaping societies and enriching lives"
+        }
+
+        function book() {
+            document.getElementById("read").innerHTML = "Reading books is the immersive experience of exploring ideas and stories, and knowledge through written words. It stimulates the imagination, deepens understanding, and connects readers to different perspectives across time and culture. Whether for learning, entertainment, or reflection, reading enriches the mind and nurtures curiosity. making it one of the most timeless and transformative human activities."
+        }
+    </script>
+
+</body>
+
+</html>
