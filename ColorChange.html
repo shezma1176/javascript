@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Colours</title>
+    <style>
+        #myElement {
+            border: 1px solid #CCC;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Change Font Colour of HTML in Javascript</h2>
+    <div id="myElement">Hello World!</div>
+
+    <br>
+    <button onclick="changeColor()">Click Me!</button>
+
+    <script>
+        function changeColor() {
+            var element = document.getElementById('myElement');
+            element.style.color = "#FF0000";
+        }
+    </script>
+
+</body>
+
+</html>
